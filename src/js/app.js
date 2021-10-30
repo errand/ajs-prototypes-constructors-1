@@ -1,4 +1,4 @@
-import Character from './Character';
+import Magician from './characters/Magician';
 
-const zombie = new Character('Sandro', 'Zombie');
-console.log(zombie);
+const bowman = new Magician('Sandro');
+console.log(bowman);
